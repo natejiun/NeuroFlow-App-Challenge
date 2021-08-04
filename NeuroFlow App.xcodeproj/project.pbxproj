@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B10189CC26BA319A00F23CCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10189CB26BA319A00F23CCC /* AppDelegate.swift */; };
+		B10189CE26BA319A00F23CCC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10189CD26BA319A00F23CCC /* SceneDelegate.swift */; };
+		B10189D026BA319A00F23CCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10189CF26BA319A00F23CCC /* ViewController.swift */; };
+		B10189D326BA319A00F23CCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B10189D126BA319A00F23CCC /* Main.storyboard */; };
+		B10189D526BA319C00F23CCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B10189D426BA319C00F23CCC /* Assets.xcassets */; };
+		B10189D826BA319C00F23CCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B10189D626BA319C00F23CCC /* LaunchScreen.storyboard */; };
+		B10189E326BA319C00F23CCC /* NeuroFlow_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10189E226BA319C00F23CCC /* NeuroFlow_AppTests.swift */; };
+		B10189EE26BA319C00F23CCC /* NeuroFlow_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10189ED26BA319C00F23CCC /* NeuroFlow_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B10189DF26BA319C00F23CCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B10189C026BA319A00F23CCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B10189C726BA319A00F23CCC;
+			remoteInfo = "NeuroFlow App";
+		};
+		B10189EA26BA319C00F23CCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B10189C026BA319A00F23CCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B10189C726BA319A00F23CCC;
+			remoteInfo = "NeuroFlow App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B10189C826BA319A00F23CCC /* NeuroFlow App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NeuroFlow App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10189CB26BA319A00F23CCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B10189CD26BA319A00F23CCC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B10189CF26BA319A00F23CCC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B10189D226BA319A00F23CCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B10189D426BA319C00F23CCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B10189D726BA319C00F23CCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B10189D926BA319C00F23CCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B10189DE26BA319C00F23CCC /* NeuroFlow AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NeuroFlow AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10189E226BA319C00F23CCC /* NeuroFlow_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuroFlow_AppTests.swift; sourceTree = "<group>"; };
+		B10189E426BA319C00F23CCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B10189E926BA319C00F23CCC /* NeuroFlow AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NeuroFlow AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10189ED26BA319C00F23CCC /* NeuroFlow_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuroFlow_AppUITests.swift; sourceTree = "<group>"; };
+		B10189EF26BA319C00F23CCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B10189C526BA319A00F23CCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B10189DB26BA319C00F23CCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B10189E626BA319C00F23CCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B10189BF26BA319A00F23CCC = {
+			isa = PBXGroup;
+			children = (
+				B10189CA26BA319A00F23CCC /* NeuroFlow App */,
+				B10189E126BA319C00F23CCC /* NeuroFlow AppTests */,
+				B10189EC26BA319C00F23CCC /* NeuroFlow AppUITests */,
+				B10189C926BA319A00F23CCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B10189C926BA319A00F23CCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B10189C826BA319A00F23CCC /* NeuroFlow App.app */,
+				B10189DE26BA319C00F23CCC /* NeuroFlow AppTests.xctest */,
+				B10189E926BA319C00F23CCC /* NeuroFlow AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B10189CA26BA319A00F23CCC /* NeuroFlow App */ = {
+			isa = PBXGroup;
+			children = (
+				B10189CB26BA319A00F23CCC /* AppDelegate.swift */,
+				B10189CD26BA319A00F23CCC /* SceneDelegate.swift */,
+				B10189CF26BA319A00F23CCC /* ViewController.swift */,
+				B10189D126BA319A00F23CCC /* Main.storyboard */,
+				B10189D426BA319C00F23CCC /* Assets.xcassets */,
+				B10189D626BA319C00F23CCC /* LaunchScreen.storyboard */,
+				B10189D926BA319C00F23CCC /* Info.plist */,
+			);
+			path = "NeuroFlow App";
+			sourceTree = "<group>";
+		};
+		B10189E126BA319C00F23CCC /* NeuroFlow AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B10189E226BA319C00F23CCC /* NeuroFlow_AppTests.swift */,
+				B10189E426BA319C00F23CCC /* Info.plist */,
+			);
+			path = "NeuroFlow AppTests";
+			sourceTree = "<group>";
+		};
+		B10189EC26BA319C00F23CCC /* NeuroFlow AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B10189ED26BA319C00F23CCC /* NeuroFlow_AppUITests.swift */,
+				B10189EF26BA319C00F23CCC /* Info.plist */,
+			);
+			path = "NeuroFlow AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B10189C726BA319A00F23CCC /* NeuroFlow App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B10189F226BA319C00F23CCC /* Build configuration list for PBXNativeTarget "NeuroFlow App" */;
+			buildPhases = (
+				B10189C426BA319A00F23CCC /* Sources */,
+				B10189C526BA319A00F23CCC /* Frameworks */,
+				B10189C626BA319A00F23CCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NeuroFlow App";
+			productName = "NeuroFlow App";
+			productReference = B10189C826BA319A00F23CCC /* NeuroFlow App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B10189DD26BA319C00F23CCC /* NeuroFlow AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B10189F526BA319C00F23CCC /* Build configuration list for PBXNativeTarget "NeuroFlow AppTests" */;
+			buildPhases = (
+				B10189DA26BA319C00F23CCC /* Sources */,
+				B10189DB26BA319C00F23CCC /* Frameworks */,
+				B10189DC26BA319C00F23CCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B10189E026BA319C00F23CCC /* PBXTargetDependency */,
+			);
+			name = "NeuroFlow AppTests";
+			productName = "NeuroFlow AppTests";
+			productReference = B10189DE26BA319C00F23CCC /* NeuroFlow AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B10189E826BA319C00F23CCC /* NeuroFlow AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B10189F826BA319C00F23CCC /* Build configuration list for PBXNativeTarget "NeuroFlow AppUITests" */;
+			buildPhases = (
+				B10189E526BA319C00F23CCC /* Sources */,
+				B10189E626BA319C00F23CCC /* Frameworks */,
+				B10189E726BA319C00F23CCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B10189EB26BA319C00F23CCC /* PBXTargetDependency */,
+			);
+			name = "NeuroFlow AppUITests";
+			productName = "NeuroFlow AppUITests";
+			productReference = B10189E926BA319C00F23CCC /* NeuroFlow AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B10189C026BA319A00F23CCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					B10189C726BA319A00F23CCC = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					B10189DD26BA319C00F23CCC = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = B10189C726BA319A00F23CCC;
+					};
+					B10189E826BA319C00F23CCC = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = B10189C726BA319A00F23CCC;
+					};
+				};
+			};
+			buildConfigurationList = B10189C326BA319A00F23CCC /* Build configuration list for PBXProject "NeuroFlow App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B10189BF26BA319A00F23CCC;
+			productRefGroup = B10189C926BA319A00F23CCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B10189C726BA319A00F23CCC /* NeuroFlow App */,
+				B10189DD26BA319C00F23CCC /* NeuroFlow AppTests */,
+				B10189E826BA319C00F23CCC /* NeuroFlow AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B10189C626BA319A00F23CCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10189D826BA319C00F23CCC /* LaunchScreen.storyboard in Resources */,
+				B10189D526BA319C00F23CCC /* Assets.xcassets in Resources */,
+				B10189D326BA319A00F23CCC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B10189DC26BA319C00F23CCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B10189E726BA319C00F23CCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B10189C426BA319A00F23CCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10189D026BA319A00F23CCC /* ViewController.swift in Sources */,
+				B10189CC26BA319A00F23CCC /* AppDelegate.swift in Sources */,
+				B10189CE26BA319A00F23CCC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B10189DA26BA319C00F23CCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10189E326BA319C00F23CCC /* NeuroFlow_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B10189E526BA319C00F23CCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B10189EE26BA319C00F23CCC /* NeuroFlow_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B10189E026BA319C00F23CCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B10189C726BA319A00F23CCC /* NeuroFlow App */;
+			targetProxy = B10189DF26BA319C00F23CCC /* PBXContainerItemProxy */;
+		};
+		B10189EB26BA319C00F23CCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B10189C726BA319A00F23CCC /* NeuroFlow App */;
+			targetProxy = B10189EA26BA319C00F23CCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B10189D126BA319A00F23CCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B10189D226BA319A00F23CCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B10189D626BA319C00F23CCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B10189D726BA319C00F23CCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B10189F026BA319C00F23CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B10189F126BA319C00F23CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B10189F326BA319C00F23CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGYALYJ3Q3;
+				INFOPLIST_FILE = "NeuroFlow App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nathan.NeuroFlow-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B10189F426BA319C00F23CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGYALYJ3Q3;
+				INFOPLIST_FILE = "NeuroFlow App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nathan.NeuroFlow-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B10189F626BA319C00F23CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGYALYJ3Q3;
+				INFOPLIST_FILE = "NeuroFlow AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nathan.NeuroFlow-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeuroFlow App.app/NeuroFlow App";
+			};
+			name = Debug;
+		};
+		B10189F726BA319C00F23CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGYALYJ3Q3;
+				INFOPLIST_FILE = "NeuroFlow AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nathan.NeuroFlow-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeuroFlow App.app/NeuroFlow App";
+			};
+			name = Release;
+		};
+		B10189F926BA319C00F23CCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGYALYJ3Q3;
+				INFOPLIST_FILE = "NeuroFlow AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nathan.NeuroFlow-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NeuroFlow App";
+			};
+			name = Debug;
+		};
+		B10189FA26BA319C00F23CCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HGYALYJ3Q3;
+				INFOPLIST_FILE = "NeuroFlow AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Nathan.NeuroFlow-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "NeuroFlow App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B10189C326BA319A00F23CCC /* Build configuration list for PBXProject "NeuroFlow App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B10189F026BA319C00F23CCC /* Debug */,
+				B10189F126BA319C00F23CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B10189F226BA319C00F23CCC /* Build configuration list for PBXNativeTarget "NeuroFlow App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B10189F326BA319C00F23CCC /* Debug */,
+				B10189F426BA319C00F23CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B10189F526BA319C00F23CCC /* Build configuration list for PBXNativeTarget "NeuroFlow AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B10189F626BA319C00F23CCC /* Debug */,
+				B10189F726BA319C00F23CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B10189F826BA319C00F23CCC /* Build configuration list for PBXNativeTarget "NeuroFlow AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B10189F926BA319C00F23CCC /* Debug */,
+				B10189FA26BA319C00F23CCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B10189C026BA319A00F23CCC /* Project object */;
+}
