@@ -2,7 +2,7 @@
 //  NeuroFlow_AppTests.swift
 //  NeuroFlow AppTests
 //
-//  Created by Ben Nguyen on 8/3/21.
+//  Created by Nathan Ho on 8/3/21.
 //
 
 import XCTest
