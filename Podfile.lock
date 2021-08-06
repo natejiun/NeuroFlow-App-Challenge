@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (5.4.3)
+  - SpotifyKit (0.0.6)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.4)
+  - SpotifyKit
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - SpotifyKit
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  SpotifyKit: 20abf7e1e170e35683ecbe6d93598e91d4e7b6ab
+
+PODFILE CHECKSUM: 1023d643cb39ee8dc19018b9177b9c0276c3a78f
+
+COCOAPODS: 1.10.2

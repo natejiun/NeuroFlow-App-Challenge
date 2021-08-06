@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4BCBC9DC42C671226480ECE1 /* Pods_NeuroFlow_App_NeuroFlow_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F30A4388EF905ED9199288D /* Pods_NeuroFlow_App_NeuroFlow_AppUITests.framework */; };
+		59F4F489FBBD595787015F2A /* Pods_NeuroFlow_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B3927E7A26759BC46C4CA7 /* Pods_NeuroFlow_AppTests.framework */; };
 		B10189CC26BA319A00F23CCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10189CB26BA319A00F23CCC /* AppDelegate.swift */; };
 		B10189CE26BA319A00F23CCC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10189CD26BA319A00F23CCC /* SceneDelegate.swift */; };
 		B10189D026BA319A00F23CCC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10189CF26BA319A00F23CCC /* ViewController.swift */; };
@@ -15,6 +17,8 @@
 		B10189D826BA319C00F23CCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B10189D626BA319C00F23CCC /* LaunchScreen.storyboard */; };
 		B10189E326BA319C00F23CCC /* NeuroFlow_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10189E226BA319C00F23CCC /* NeuroFlow_AppTests.swift */; };
 		B10189EE26BA319C00F23CCC /* NeuroFlow_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10189ED26BA319C00F23CCC /* NeuroFlow_AppUITests.swift */; };
+		B10189FE26BC5F5B00F23CCC /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10189FD26BC5F5B00F23CCC /* InfoViewController.swift */; };
+		E1F221721DC97751070FF29C /* Pods_NeuroFlow_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F844D4A8483FB57F82B8ACB /* Pods_NeuroFlow_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		140E29AE093B30059C40AD60 /* Pods-NeuroFlow App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeuroFlow App.debug.xcconfig"; path = "Target Support Files/Pods-NeuroFlow App/Pods-NeuroFlow App.debug.xcconfig"; sourceTree = "<group>"; };
+		25E09E7922E274680EF8E245 /* Pods-NeuroFlow AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeuroFlow AppTests.debug.xcconfig"; path = "Target Support Files/Pods-NeuroFlow AppTests/Pods-NeuroFlow AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F30A4388EF905ED9199288D /* Pods_NeuroFlow_App_NeuroFlow_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeuroFlow_App_NeuroFlow_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F844D4A8483FB57F82B8ACB /* Pods_NeuroFlow_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeuroFlow_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D95E53C8D6D904CC9AB6A2D /* Pods-NeuroFlow App-NeuroFlow AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeuroFlow App-NeuroFlow AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-NeuroFlow App-NeuroFlow AppUITests/Pods-NeuroFlow App-NeuroFlow AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7AFF42887AAE56019CBBD3FF /* Pods-NeuroFlow AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeuroFlow AppTests.release.xcconfig"; path = "Target Support Files/Pods-NeuroFlow AppTests/Pods-NeuroFlow AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		900E00B63B844126BCB43EF6 /* Pods-NeuroFlow App-NeuroFlow AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeuroFlow App-NeuroFlow AppUITests.release.xcconfig"; path = "Target Support Files/Pods-NeuroFlow App-NeuroFlow AppUITests/Pods-NeuroFlow App-NeuroFlow AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A9B3927E7A26759BC46C4CA7 /* Pods_NeuroFlow_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeuroFlow_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B10189C826BA319A00F23CCC /* NeuroFlow App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NeuroFlow App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B10189CB26BA319A00F23CCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B10189CD26BA319A00F23CCC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +61,8 @@
 		B10189E926BA319C00F23CCC /* NeuroFlow AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NeuroFlow AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B10189ED26BA319C00F23CCC /* NeuroFlow_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuroFlow_AppUITests.swift; sourceTree = "<group>"; };
 		B10189EF26BA319C00F23CCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B10189FD26BC5F5B00F23CCC /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		C357494342438D887599EC5A /* Pods-NeuroFlow App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeuroFlow App.release.xcconfig"; path = "Target Support Files/Pods-NeuroFlow App/Pods-NeuroFlow App.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1F221721DC97751070FF29C /* Pods_NeuroFlow_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59F4F489FBBD595787015F2A /* Pods_NeuroFlow_AppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +86,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4BCBC9DC42C671226480ECE1 /* Pods_NeuroFlow_App_NeuroFlow_AppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EB5C40B203409006B49F1F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F844D4A8483FB57F82B8ACB /* Pods_NeuroFlow_App.framework */,
+				2F30A4388EF905ED9199288D /* Pods_NeuroFlow_App_NeuroFlow_AppUITests.framework */,
+				A9B3927E7A26759BC46C4CA7 /* Pods_NeuroFlow_AppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		829909FD1EDF7EA3BC11BFB6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				140E29AE093B30059C40AD60 /* Pods-NeuroFlow App.debug.xcconfig */,
+				C357494342438D887599EC5A /* Pods-NeuroFlow App.release.xcconfig */,
+				5D95E53C8D6D904CC9AB6A2D /* Pods-NeuroFlow App-NeuroFlow AppUITests.debug.xcconfig */,
+				900E00B63B844126BCB43EF6 /* Pods-NeuroFlow App-NeuroFlow AppUITests.release.xcconfig */,
+				25E09E7922E274680EF8E245 /* Pods-NeuroFlow AppTests.debug.xcconfig */,
+				7AFF42887AAE56019CBBD3FF /* Pods-NeuroFlow AppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B10189BF26BA319A00F23CCC = {
 			isa = PBXGroup;
 			children = (
+				B1C7951726BCAA83004EFCEA /* REMOTE */,
 				B10189CA26BA319A00F23CCC /* NeuroFlow App */,
 				B10189E126BA319C00F23CCC /* NeuroFlow AppTests */,
 				B10189EC26BA319C00F23CCC /* NeuroFlow AppUITests */,
 				B10189C926BA319A00F23CCC /* Products */,
+				829909FD1EDF7EA3BC11BFB6 /* Pods */,
+				1EB5C40B203409006B49F1F2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,6 +145,7 @@
 				B10189CB26BA319A00F23CCC /* AppDelegate.swift */,
 				B10189CD26BA319A00F23CCC /* SceneDelegate.swift */,
 				B10189CF26BA319A00F23CCC /* ViewController.swift */,
+				B10189FD26BC5F5B00F23CCC /* InfoViewController.swift */,
 				B10189D126BA319A00F23CCC /* Main.storyboard */,
 				B10189D426BA319C00F23CCC /* Assets.xcassets */,
 				B10189D626BA319C00F23CCC /* LaunchScreen.storyboard */,
@@ -128,6 +172,13 @@
 			path = "NeuroFlow AppUITests";
 			sourceTree = "<group>";
 		};
+		B1C7951726BCAA83004EFCEA /* REMOTE */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = REMOTE;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +186,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B10189F226BA319C00F23CCC /* Build configuration list for PBXNativeTarget "NeuroFlow App" */;
 			buildPhases = (
+				34C8B8BEF54B0ED628DD1DFD /* [CP] Check Pods Manifest.lock */,
 				B10189C426BA319A00F23CCC /* Sources */,
 				B10189C526BA319A00F23CCC /* Frameworks */,
 				B10189C626BA319A00F23CCC /* Resources */,
+				DE2553C7DF8EDA3AC45D3B96 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B10189F526BA319C00F23CCC /* Build configuration list for PBXNativeTarget "NeuroFlow AppTests" */;
 			buildPhases = (
+				A8CFEA11A09D2A40704D3365 /* [CP] Check Pods Manifest.lock */,
 				B10189DA26BA319C00F23CCC /* Sources */,
 				B10189DB26BA319C00F23CCC /* Frameworks */,
 				B10189DC26BA319C00F23CCC /* Resources */,
@@ -170,9 +224,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B10189F826BA319C00F23CCC /* Build configuration list for PBXNativeTarget "NeuroFlow AppUITests" */;
 			buildPhases = (
+				FEA2BE82AC22E11D9B7BCA2F /* [CP] Check Pods Manifest.lock */,
 				B10189E526BA319C00F23CCC /* Sources */,
 				B10189E626BA319C00F23CCC /* Frameworks */,
 				B10189E726BA319C00F23CCC /* Resources */,
+				FD3E5EF9166EE672F3472F2F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +309,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		34C8B8BEF54B0ED628DD1DFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NeuroFlow App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8CFEA11A09D2A40704D3365 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NeuroFlow AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE2553C7DF8EDA3AC45D3B96 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeuroFlow App/Pods-NeuroFlow App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeuroFlow App/Pods-NeuroFlow App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NeuroFlow App/Pods-NeuroFlow App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD3E5EF9166EE672F3472F2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeuroFlow App-NeuroFlow AppUITests/Pods-NeuroFlow App-NeuroFlow AppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NeuroFlow App-NeuroFlow AppUITests/Pods-NeuroFlow App-NeuroFlow AppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NeuroFlow App-NeuroFlow AppUITests/Pods-NeuroFlow App-NeuroFlow AppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEA2BE82AC22E11D9B7BCA2F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NeuroFlow App-NeuroFlow AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B10189C426BA319A00F23CCC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +420,7 @@
 				B10189D026BA319A00F23CCC /* ViewController.swift in Sources */,
 				B10189CC26BA319A00F23CCC /* AppDelegate.swift in Sources */,
 				B10189CE26BA319A00F23CCC /* SceneDelegate.swift in Sources */,
+				B10189FE26BC5F5B00F23CCC /* InfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,12 +593,14 @@
 		};
 		B10189F326BA319C00F23CCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 140E29AE093B30059C40AD60 /* Pods-NeuroFlow App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HGYALYJ3Q3;
 				INFOPLIST_FILE = "NeuroFlow App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,12 +614,14 @@
 		};
 		B10189F426BA319C00F23CCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C357494342438D887599EC5A /* Pods-NeuroFlow App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = HGYALYJ3Q3;
 				INFOPLIST_FILE = "NeuroFlow App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,6 +635,7 @@
 		};
 		B10189F626BA319C00F23CCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25E09E7922E274680EF8E245 /* Pods-NeuroFlow AppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +658,7 @@
 		};
 		B10189F726BA319C00F23CCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AFF42887AAE56019CBBD3FF /* Pods-NeuroFlow AppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +681,7 @@
 		};
 		B10189F926BA319C00F23CCC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D95E53C8D6D904CC9AB6A2D /* Pods-NeuroFlow App-NeuroFlow AppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +702,7 @@
 		};
 		B10189FA26BA319C00F23CCC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 900E00B63B844126BCB43EF6 /* Pods-NeuroFlow App-NeuroFlow AppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

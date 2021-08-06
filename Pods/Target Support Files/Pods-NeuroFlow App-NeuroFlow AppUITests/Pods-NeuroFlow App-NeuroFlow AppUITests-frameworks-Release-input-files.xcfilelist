@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-NeuroFlow App-NeuroFlow AppUITests/Pods-NeuroFlow App-NeuroFlow AppUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/SpotifyKit/SpotifyKit.framework

@@ -2,14 +2,13 @@
 //  AppDelegate.swift
 //  NeuroFlow App
 //
-//  Created by Ben Nguyen on 8/3/21.
+//  Created by Nathan Ho on 8/3/21.
 //
 
 import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {

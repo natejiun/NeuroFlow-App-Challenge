@@ -1,0 +1,1317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		013BAC24F7AC722E59517CB110A9E685 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C4D7EBB0C63359DEF86B9F16D62CC /* HTTPMethod.swift */; };
+		04D192C4D02FD43975EA0153472197D6 /* SpotifyItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C133119A5F63F5778EA2D0607265DBC /* SpotifyItems.swift */; };
+		0A1849775CF90D514963187D3A771CF8 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92D4258996EB5F6A6F7A98906D7E339 /* Combine.swift */; };
+		0A900DF17E3B64F08AF673E9A0DDD697 /* OperationQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0038BF899454F72E3E9534572ABC9353 /* OperationQueue+Alamofire.swift */; };
+		1208E81DA8B532D0646D627B50290EB6 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94A9FEB7A4629E838EE64BEEACEFF9F /* AFError.swift */; };
+		161D41F8C13B724BC4A4D0CBAE769671 /* Pods-NeuroFlow App-NeuroFlow AppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91229B10D3D49F7273582A808A484AA4 /* Pods-NeuroFlow App-NeuroFlow AppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19D605A3233499828FB6B790869F3E9C /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0926AD6E2C74AE49D4ED82B1E7232F3E /* NetworkReachabilityManager.swift */; };
+		212EDC48B68107BEA9247F3464CE696E /* StringEncoding+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915F615848A8553D96582C75EA958E59 /* StringEncoding+Alamofire.swift */; };
+		218C14EAE5AA31C30314AE0289B732A0 /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = C300BE0BE5A601BEF18EB60EF3D0CE8B /* Protected.swift */; };
+		24119A90FFF185ACC5BF811D4453D9B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		27E59A11A2743B0595CDE3A08675EAE1 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44318C03CE86F246E13180315D8D3D1E /* DispatchQueue+Alamofire.swift */; };
+		2D0330B548C2D23EA11AE894FC99B6E6 /* Pods-NeuroFlow AppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C20284A18D8938B0776BFB81477790E0 /* Pods-NeuroFlow AppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34F3FA46139F83CCDE8AF85EDD200A91 /* SpotifyKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C218AAA2C38ABD398504B459AAA2170A /* SpotifyKit.swift */; };
+		381FF05F8B4F611EE9C2FDBE4457BB89 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87EE241C3438672B2E74F6FB7E34A98 /* SessionDelegate.swift */; };
+		45B8CC1C61E7A0BB28CFA8CE7C12FEBC /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36F3F572BEC36AC47DF47B4CA32691F /* MultipartFormData.swift */; };
+		476D5F33E25386C60D6BD75C4FA97C67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		47FDBBBD2704901588C3A7C56BBC502D /* ServerTrustEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD77E4269E048FA38860C15090995A4 /* ServerTrustEvaluation.swift */; };
+		4AEC050FA7D5ED52FDA9DF50EA3560DF /* ParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88078470402362997E2A2EB2B2B3AFB /* ParameterEncoder.swift */; };
+		5FFCA7EC6F58DA4F6C29C8892927C899 /* WebCommunications.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB3AB693278DD456EEE018E7213A7222 /* WebCommunications.swift */; };
+		6546D728B69398F93B506845141EBD61 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786C2C1EE306D537087C1704F674A0E1 /* EventMonitor.swift */; };
+		666EC5C8356E6D4448A2FE7BEE77AD88 /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F967B907CA38D534039DE03CF9CF10 /* RedirectHandler.swift */; };
+		66B26C6CAE737EC21F4BA1F1851B69C5 /* Result+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1608B901F798033712BE9CD2794E89 /* Result+Alamofire.swift */; };
+		6AE407A4FB6C3D6ADD862CC6E3067A17 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC35875C9D44BAC755723DC7409FB271 /* Session.swift */; };
+		6C08F6A77889651626583100F560153D /* RequestTaskMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 752E74BD460BCFCC7134269EF2915B80 /* RequestTaskMap.swift */; };
+		6E54F64E8DA73F4B0B46C216F9F93F63 /* RequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1FFC37EFC0E2982AD196F4B4BD6BAB /* RequestInterceptor.swift */; };
+		72EC2712926E6D28B52360D9AC41668F /* AlamofireExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85D999A4B86E5618E5A2158F18573D6 /* AlamofireExtended.swift */; };
+		736EC3299A9771A22DF72ABD691FA90C /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 023C0E24AEF853925C38EF9BFE772B7D /* Keychain.swift */; };
+		7D3DD4A8BB36733BA15868F7FB8C56CE /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 78ED79EE599E0AA4D431A8DBDA7D222F /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AA937910F87915DE700CAB6C868689E /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3358ACBCD1B53C9C361D59359A04F6B2 /* Notifications.swift */; };
+		911448B2EDA2FF880108F77642797A88 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238A35B75B4902B2A835E480FC30B518 /* ResponseSerialization.swift */; };
+		91B837CE0DCD8EDB300FCDFFA1279162 /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B31FA3F6C727B659A5ACFBEAC9A0318 /* HTTPHeaders.swift */; };
+		94064181491778F1AAA7F5091548CE4B /* Pods-NeuroFlow App-NeuroFlow AppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5A60743BA73EB5146BBC411BA2678E /* Pods-NeuroFlow App-NeuroFlow AppUITests-dummy.m */; };
+		9B1D8A7798D8A6F518FC9AF9725431D0 /* URLConvertible+URLRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CCA2243BB5274A8F6E2B36FEEFEF60 /* URLConvertible+URLRequestConvertible.swift */; };
+		9FED70D1E1FBFB80E974E999EF732258 /* RetryPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AFD09AEBDE960211C52B3C6D33B4E18 /* RetryPolicy.swift */; };
+		A7797967B0D1AD5EE40B6431035F70BA /* Pods-NeuroFlow App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54770148A8536E349E4D125DDE9C2E17 /* Pods-NeuroFlow App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9C7B29D4878F1690BBE3F8195CF0313 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3D57353834825F7B52B816066B7789 /* CFNetwork.framework */; };
+		ABA85887A41495358C83CE3F3030EDEA /* CachedResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C558035D700C9A6F9D363132CBBCF07 /* CachedResponseHandler.swift */; };
+		B1E824CBF00F3E5560A94F5921E379CB /* SpotifyKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 946933528A9DC3198DBABDD22ADF7C39 /* SpotifyKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1C5B050B55C15103ABC81769551A283 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23EB1CD687812033CB728E4615C6F2D /* Response.swift */; };
+		C1F1DB6A9CBDE584D09BA1613AAD4F9D /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BCAF45CE05A2019195D24576F197C1 /* Alamofire.swift */; };
+		C443452699263553779960F95A1E2E11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		C6D5A4B4028B2C43380C9FA58BD5C8CA /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C689E858378DC91B777FF99018439F3B /* Alamofire-dummy.m */; };
+		CBD7270875BC19E48B597785A6CFFC1B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		D03F1F02DE8606E6057D57866611BEBF /* MultipartUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A121FA45F9C846ECE0CC12863DE1A68 /* MultipartUpload.swift */; };
+		D14066FAE94E304798E43651E5886D13 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91DFDD243F2F984B9326EB9523E23E83 /* ParameterEncoding.swift */; };
+		D31FC7FDD450C4CDD633ECBAD27C6221 /* URLEncodedFormEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5706DBEC3620E6AD5578C8DF45085881 /* URLEncodedFormEncoder.swift */; };
+		D42A86AE595428AB0FDA129CDDB038F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		D5EAAFB6FAD77A8F0699345149BA3CBB /* URLRequest+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A412B5760FC4A319CFEE1F45E3806E /* URLRequest+Alamofire.swift */; };
+		D6DB6201C0C5D50F8F573336DE6CC362 /* Pods-NeuroFlow App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F314463C17E9988B12398D81BDD57F5 /* Pods-NeuroFlow App-dummy.m */; };
+		DC627AFC5B585686898B014184AFCABD /* AuthenticationInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AE7B043228ABAC85F283C62863BDA4 /* AuthenticationInterceptor.swift */; };
+		EA99801A878F87439BC9E47C5DA3F0F8 /* Pods-NeuroFlow AppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97918858BEA3D9DFA02384BA9A169E69 /* Pods-NeuroFlow AppTests-dummy.m */; };
+		EB1CE86497C42A4FE8F90D9323FD9235 /* SpotifyKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7F159AFEE8B2F784C08DE2FAC178DA /* SpotifyKit-dummy.m */; };
+		EDC93BD7B9262119AE145E4C7A9D0212 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A555733F77CFAC3B9BBAA288990ED0 /* Request.swift */; };
+		F0F3224FF592F9BA2A044A2FC2BD4CCD /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55ADE2B965B0919147D4EB51BDC75EE6 /* Validation.swift */; };
+		F70EF854395CDE981A8336E4FF0310FE /* URLSessionConfiguration+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EBB98DE99AEF5B456603DE4001D45D /* URLSessionConfiguration+Alamofire.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1388AAA831B821969A135E95E2E2ACDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D26288CCBF209EAADF095D6CEFEF0AA4;
+			remoteInfo = SpotifyKit;
+		};
+		179696EEA8F365B96F389E8EE312E2D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7397CE3A40661DA94E815DD9EA996C7D;
+			remoteInfo = "Pods-NeuroFlow App";
+		};
+		5E5D78A215D88C91F6547D768AAA4908 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D26288CCBF209EAADF095D6CEFEF0AA4;
+			remoteInfo = SpotifyKit;
+		};
+		B284578E28F2D024E9A49878867BC760 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+		C20D22C75D253CA28434BEFA165EF3B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0038BF899454F72E3E9534572ABC9353 /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Alamofire.swift"; path = "Source/OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		023C0E24AEF853925C38EF9BFE772B7D /* Keychain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Keychain.swift; path = Sources/Keychain.swift; sourceTree = "<group>"; };
+		0926AD6E2C74AE49D4ED82B1E7232F3E /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		0BE8CCDAAB8790B967983F66BD2FE6BE /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
+		0C558035D700C9A6F9D363132CBBCF07 /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/CachedResponseHandler.swift; sourceTree = "<group>"; };
+		11AE7B043228ABAC85F283C62863BDA4 /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationInterceptor.swift; path = Source/AuthenticationInterceptor.swift; sourceTree = "<group>"; };
+		159F3C16DED892089A1489781A47C1C5 /* Pods-NeuroFlow AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NeuroFlow AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1A121FA45F9C846ECE0CC12863DE1A68 /* MultipartUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartUpload.swift; path = Source/MultipartUpload.swift; sourceTree = "<group>"; };
+		238A35B75B4902B2A835E480FC30B518 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		25E07236DC5859C5BC753B5A54AB5A61 /* SpotifyKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SpotifyKit.modulemap; sourceTree = "<group>"; };
+		29038FE37ED0E69F91AAF0E987A38230 /* SpotifyKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SpotifyKit.release.xcconfig; sourceTree = "<group>"; };
+		2951EE80DA20D6163942FE280FB976F7 /* Pods_NeuroFlow_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NeuroFlow_App.framework; path = "Pods-NeuroFlow App.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A1FFC37EFC0E2982AD196F4B4BD6BAB /* RequestInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestInterceptor.swift; path = Source/RequestInterceptor.swift; sourceTree = "<group>"; };
+		2F5A60743BA73EB5146BBC411BA2678E /* Pods-NeuroFlow App-NeuroFlow AppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NeuroFlow App-NeuroFlow AppUITests-dummy.m"; sourceTree = "<group>"; };
+		3358ACBCD1B53C9C361D59359A04F6B2 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		37A555733F77CFAC3B9BBAA288990ED0 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		3F314463C17E9988B12398D81BDD57F5 /* Pods-NeuroFlow App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NeuroFlow App-dummy.m"; sourceTree = "<group>"; };
+		3FD77E4269E048FA38860C15090995A4 /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustEvaluation.swift; path = Source/ServerTrustEvaluation.swift; sourceTree = "<group>"; };
+		3FF492C226942E9E1F8A9035342DA376 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		44318C03CE86F246E13180315D8D3D1E /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		4AFD09AEBDE960211C52B3C6D33B4E18 /* RetryPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryPolicy.swift; path = Source/RetryPolicy.swift; sourceTree = "<group>"; };
+		4FBBD3AFEABBC263A375B064B9E15657 /* Pods-NeuroFlow AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NeuroFlow AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		50D97A599BB3278D3FBC65D44BF0CE04 /* Pods_NeuroFlow_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NeuroFlow_AppTests.framework; path = "Pods-NeuroFlow AppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5159EDF95D4F304C23C8258DFD94F5DD /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
+		54770148A8536E349E4D125DDE9C2E17 /* Pods-NeuroFlow App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NeuroFlow App-umbrella.h"; sourceTree = "<group>"; };
+		54AED6B042AA3CFDE0959B9412C5DF79 /* Pods-NeuroFlow AppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NeuroFlow AppTests.modulemap"; sourceTree = "<group>"; };
+		55ADE2B965B0919147D4EB51BDC75EE6 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		56BCAF45CE05A2019195D24576F197C1 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		5706DBEC3620E6AD5578C8DF45085881 /* URLEncodedFormEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLEncodedFormEncoder.swift; path = Source/URLEncodedFormEncoder.swift; sourceTree = "<group>"; };
+		5B31FA3F6C727B659A5ACFBEAC9A0318 /* HTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeaders.swift; path = Source/HTTPHeaders.swift; sourceTree = "<group>"; };
+		5B77EE90713C5CA0A39749D68DC757AB /* Pods-NeuroFlow App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NeuroFlow App.modulemap"; sourceTree = "<group>"; };
+		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61D2971D06DA1F89024C9A0501D71D27 /* Pods-NeuroFlow App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NeuroFlow App-acknowledgements.plist"; sourceTree = "<group>"; };
+		6B1608B901F798033712BE9CD2794E89 /* Result+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Result+Alamofire.swift"; path = "Source/Result+Alamofire.swift"; sourceTree = "<group>"; };
+		6B589CCF8484270D4581CE12D296BCDD /* Pods-NeuroFlow AppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NeuroFlow AppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6D12F0BE913D4B667BCD135349B8086A /* Pods-NeuroFlow AppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NeuroFlow AppTests-Info.plist"; sourceTree = "<group>"; };
+		6F7F159AFEE8B2F784C08DE2FAC178DA /* SpotifyKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SpotifyKit-dummy.m"; sourceTree = "<group>"; };
+		6F9C4D7EBB0C63359DEF86B9F16D62CC /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Source/HTTPMethod.swift; sourceTree = "<group>"; };
+		700354EFA73570A845AFF3E21735AA1F /* Pods-NeuroFlow App-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NeuroFlow App-Info.plist"; sourceTree = "<group>"; };
+		710B0211AB5BD934FE78C688093E8D5F /* Pods-NeuroFlow AppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NeuroFlow AppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		752E74BD460BCFCC7134269EF2915B80 /* RequestTaskMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestTaskMap.swift; path = Source/RequestTaskMap.swift; sourceTree = "<group>"; };
+		786C2C1EE306D537087C1704F674A0E1 /* EventMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventMonitor.swift; path = Source/EventMonitor.swift; sourceTree = "<group>"; };
+		78ED79EE599E0AA4D431A8DBDA7D222F /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		7C6B762B645C8C9FC5D3A5F850B66942 /* Pods-NeuroFlow App-NeuroFlow AppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NeuroFlow App-NeuroFlow AppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7D0A919D217EFFB0831762339F940C44 /* Pods-NeuroFlow App-NeuroFlow AppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NeuroFlow App-NeuroFlow AppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7FD215953D92DF5D044C69DD88E0C411 /* Pods-NeuroFlow App-NeuroFlow AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NeuroFlow App-NeuroFlow AppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		874EB5FDF8CF8BBC824AE1A5CB2F74CF /* Pods-NeuroFlow App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NeuroFlow App-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8D3D57353834825F7B52B816066B7789 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		91229B10D3D49F7273582A808A484AA4 /* Pods-NeuroFlow App-NeuroFlow AppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NeuroFlow App-NeuroFlow AppUITests-umbrella.h"; sourceTree = "<group>"; };
+		915F615848A8553D96582C75EA958E59 /* StringEncoding+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StringEncoding+Alamofire.swift"; path = "Source/StringEncoding+Alamofire.swift"; sourceTree = "<group>"; };
+		91DFDD243F2F984B9326EB9523E23E83 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		921D811DBB2E5DB4D08AF5621323C561 /* Pods-NeuroFlow App-NeuroFlow AppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NeuroFlow App-NeuroFlow AppUITests-Info.plist"; sourceTree = "<group>"; };
+		946933528A9DC3198DBABDD22ADF7C39 /* SpotifyKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpotifyKit-umbrella.h"; sourceTree = "<group>"; };
+		97918858BEA3D9DFA02384BA9A169E69 /* Pods-NeuroFlow AppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NeuroFlow AppTests-dummy.m"; sourceTree = "<group>"; };
+		97A1FE185E06CA00FF495F193237919C /* Pods-NeuroFlow App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NeuroFlow App.debug.xcconfig"; sourceTree = "<group>"; };
+		98F557A75641F62235315901421EC6DA /* SpotifyKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SpotifyKit.framework; path = SpotifyKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AFAE88F915C7BDFDD290E0F21BF863A /* Pods_NeuroFlow_App_NeuroFlow_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_NeuroFlow_App_NeuroFlow_AppUITests.framework; path = "Pods-NeuroFlow App-NeuroFlow AppUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C133119A5F63F5778EA2D0607265DBC /* SpotifyItems.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpotifyItems.swift; path = Sources/SpotifyItems.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A8A412B5760FC4A319CFEE1F45E3806E /* URLRequest+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+Alamofire.swift"; path = "Source/URLRequest+Alamofire.swift"; sourceTree = "<group>"; };
+		A92D4258996EB5F6A6F7A98906D7E339 /* Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Combine.swift; path = Source/Combine.swift; sourceTree = "<group>"; };
+		B4CCA2243BB5274A8F6E2B36FEEFEF60 /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLConvertible+URLRequestConvertible.swift"; path = "Source/URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
+		B54DF502E55D04E4F0AE8D36948B0CA8 /* Pods-NeuroFlow App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NeuroFlow App.release.xcconfig"; sourceTree = "<group>"; };
+		B88078470402362997E2A2EB2B2B3AFB /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/ParameterEncoder.swift; sourceTree = "<group>"; };
+		B9F967B907CA38D534039DE03CF9CF10 /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Source/RedirectHandler.swift; sourceTree = "<group>"; };
+		C20284A18D8938B0776BFB81477790E0 /* Pods-NeuroFlow AppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NeuroFlow AppTests-umbrella.h"; sourceTree = "<group>"; };
+		C218AAA2C38ABD398504B459AAA2170A /* SpotifyKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SpotifyKit.swift; path = Sources/SpotifyKit.swift; sourceTree = "<group>"; };
+		C2D0FBD10A3E77A6C526E6C4F82739C7 /* SpotifyKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SpotifyKit-prefix.pch"; sourceTree = "<group>"; };
+		C300BE0BE5A601BEF18EB60EF3D0CE8B /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Source/Protected.swift; sourceTree = "<group>"; };
+		C689E858378DC91B777FF99018439F3B /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		CB3AB693278DD456EEE018E7213A7222 /* WebCommunications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebCommunications.swift; path = Sources/WebCommunications.swift; sourceTree = "<group>"; };
+		CF6F94057A6F0C75A52D2EAF9ED667EE /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		D0EBB98DE99AEF5B456603DE4001D45D /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
+		D23EB1CD687812033CB728E4615C6F2D /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		D87EE241C3438672B2E74F6FB7E34A98 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		D8A566568BB1B1A515D79A395D29634E /* Pods-NeuroFlow App-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NeuroFlow App-frameworks.sh"; sourceTree = "<group>"; };
+		D8CFD7D3AFBB15D1684545D923A4DE3E /* SpotifyKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SpotifyKit.debug.xcconfig; sourceTree = "<group>"; };
+		D9D4A2757168B0FBB11025D3A808C34F /* Pods-NeuroFlow App-NeuroFlow AppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NeuroFlow App-NeuroFlow AppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		DC35875C9D44BAC755723DC7409FB271 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Source/Session.swift; sourceTree = "<group>"; };
+		E0F68426E5AA426B9D4979B9383C20B1 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		E31F4B390708B07658D4696EE7ED062E /* Pods-NeuroFlow App-NeuroFlow AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NeuroFlow App-NeuroFlow AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE73AAE23FC5E0F73B26F6B65E9D09C6 /* Pods-NeuroFlow App-NeuroFlow AppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NeuroFlow App-NeuroFlow AppUITests.modulemap"; sourceTree = "<group>"; };
+		F36F3F572BEC36AC47DF47B4CA32691F /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		F85D999A4B86E5618E5A2158F18573D6 /* AlamofireExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtended.swift; path = Source/AlamofireExtended.swift; sourceTree = "<group>"; };
+		F94A9FEB7A4629E838EE64BEEACEFF9F /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FF9DBA491C8BE95E64D58323D7A03AAE /* SpotifyKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SpotifyKit-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A2937FD57FF10F22FA90D59F5D95CB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C443452699263553779960F95A1E2E11 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17AD845DE9D0710D41DB536F766D3DA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24119A90FFF185ACC5BF811D4453D9B2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		430608BD1037CC8A278BA019A755CF40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D42A86AE595428AB0FDA129CDDB038F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9590D3FE7A79CD7CBEE3F346E8C19D4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C7B29D4878F1690BBE3F8195CF0313 /* CFNetwork.framework in Frameworks */,
+				476D5F33E25386C60D6BD75C4FA97C67 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4D6C7623EEC2EDF9884524ADB4AA968 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD7270875BC19E48B597785A6CFFC1B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		038603BAC2ABF98ABBEF9F3322448F5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8CC835EC5C2286926A0F7EF39A0194B /* Alamofire */,
+				04808AC0FF14F5A490CA928814518E5C /* SpotifyKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		04808AC0FF14F5A490CA928814518E5C /* SpotifyKit */ = {
+			isa = PBXGroup;
+			children = (
+				023C0E24AEF853925C38EF9BFE772B7D /* Keychain.swift */,
+				9C133119A5F63F5778EA2D0607265DBC /* SpotifyItems.swift */,
+				C218AAA2C38ABD398504B459AAA2170A /* SpotifyKit.swift */,
+				CB3AB693278DD456EEE018E7213A7222 /* WebCommunications.swift */,
+				AB1209F68FA5FB987AA8A3318B9CF3A1 /* Support Files */,
+			);
+			name = SpotifyKit;
+			path = SpotifyKit;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61C8CC330A5CA84DA2F5F1D32AB07069 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D028C1F4639499D13992307FF7879C5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCABCA7DB90261FEA4C6911D99D7DD04 /* Pods-NeuroFlow App */,
+				DEB1FBC8F24C4C0D3E65171C876F227C /* Pods-NeuroFlow App-NeuroFlow AppUITests */,
+				601A99B2D2BE5421282DB64F50808A5A /* Pods-NeuroFlow AppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		601A99B2D2BE5421282DB64F50808A5A /* Pods-NeuroFlow AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				54AED6B042AA3CFDE0959B9412C5DF79 /* Pods-NeuroFlow AppTests.modulemap */,
+				6B589CCF8484270D4581CE12D296BCDD /* Pods-NeuroFlow AppTests-acknowledgements.markdown */,
+				710B0211AB5BD934FE78C688093E8D5F /* Pods-NeuroFlow AppTests-acknowledgements.plist */,
+				97918858BEA3D9DFA02384BA9A169E69 /* Pods-NeuroFlow AppTests-dummy.m */,
+				6D12F0BE913D4B667BCD135349B8086A /* Pods-NeuroFlow AppTests-Info.plist */,
+				C20284A18D8938B0776BFB81477790E0 /* Pods-NeuroFlow AppTests-umbrella.h */,
+				159F3C16DED892089A1489781A47C1C5 /* Pods-NeuroFlow AppTests.debug.xcconfig */,
+				4FBBD3AFEABBC263A375B064B9E15657 /* Pods-NeuroFlow AppTests.release.xcconfig */,
+			);
+			name = "Pods-NeuroFlow AppTests";
+			path = "Target Support Files/Pods-NeuroFlow AppTests";
+			sourceTree = "<group>";
+		};
+		61C8CC330A5CA84DA2F5F1D32AB07069 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8D3D57353834825F7B52B816066B7789 /* CFNetwork.framework */,
+				FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8808242380876EAD763E7D3165C48F4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */,
+				2951EE80DA20D6163942FE280FB976F7 /* Pods_NeuroFlow_App.framework */,
+				9AFAE88F915C7BDFDD290E0F21BF863A /* Pods_NeuroFlow_App_NeuroFlow_AppUITests.framework */,
+				50D97A599BB3278D3FBC65D44BF0CE04 /* Pods_NeuroFlow_AppTests.framework */,
+				98F557A75641F62235315901421EC6DA /* SpotifyKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB1209F68FA5FB987AA8A3318B9CF3A1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				25E07236DC5859C5BC753B5A54AB5A61 /* SpotifyKit.modulemap */,
+				6F7F159AFEE8B2F784C08DE2FAC178DA /* SpotifyKit-dummy.m */,
+				FF9DBA491C8BE95E64D58323D7A03AAE /* SpotifyKit-Info.plist */,
+				C2D0FBD10A3E77A6C526E6C4F82739C7 /* SpotifyKit-prefix.pch */,
+				946933528A9DC3198DBABDD22ADF7C39 /* SpotifyKit-umbrella.h */,
+				D8CFD7D3AFBB15D1684545D923A4DE3E /* SpotifyKit.debug.xcconfig */,
+				29038FE37ED0E69F91AAF0E987A38230 /* SpotifyKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SpotifyKit";
+			sourceTree = "<group>";
+		};
+		ABC1B8919E0E85A0330FD16E495E1F39 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0F68426E5AA426B9D4979B9383C20B1 /* Alamofire.modulemap */,
+				C689E858378DC91B777FF99018439F3B /* Alamofire-dummy.m */,
+				CF6F94057A6F0C75A52D2EAF9ED667EE /* Alamofire-Info.plist */,
+				3FF492C226942E9E1F8A9035342DA376 /* Alamofire-prefix.pch */,
+				78ED79EE599E0AA4D431A8DBDA7D222F /* Alamofire-umbrella.h */,
+				0BE8CCDAAB8790B967983F66BD2FE6BE /* Alamofire.debug.xcconfig */,
+				5159EDF95D4F304C23C8258DFD94F5DD /* Alamofire.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		B8CC835EC5C2286926A0F7EF39A0194B /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				F94A9FEB7A4629E838EE64BEEACEFF9F /* AFError.swift */,
+				56BCAF45CE05A2019195D24576F197C1 /* Alamofire.swift */,
+				F85D999A4B86E5618E5A2158F18573D6 /* AlamofireExtended.swift */,
+				11AE7B043228ABAC85F283C62863BDA4 /* AuthenticationInterceptor.swift */,
+				0C558035D700C9A6F9D363132CBBCF07 /* CachedResponseHandler.swift */,
+				A92D4258996EB5F6A6F7A98906D7E339 /* Combine.swift */,
+				44318C03CE86F246E13180315D8D3D1E /* DispatchQueue+Alamofire.swift */,
+				786C2C1EE306D537087C1704F674A0E1 /* EventMonitor.swift */,
+				5B31FA3F6C727B659A5ACFBEAC9A0318 /* HTTPHeaders.swift */,
+				6F9C4D7EBB0C63359DEF86B9F16D62CC /* HTTPMethod.swift */,
+				F36F3F572BEC36AC47DF47B4CA32691F /* MultipartFormData.swift */,
+				1A121FA45F9C846ECE0CC12863DE1A68 /* MultipartUpload.swift */,
+				0926AD6E2C74AE49D4ED82B1E7232F3E /* NetworkReachabilityManager.swift */,
+				3358ACBCD1B53C9C361D59359A04F6B2 /* Notifications.swift */,
+				0038BF899454F72E3E9534572ABC9353 /* OperationQueue+Alamofire.swift */,
+				B88078470402362997E2A2EB2B2B3AFB /* ParameterEncoder.swift */,
+				91DFDD243F2F984B9326EB9523E23E83 /* ParameterEncoding.swift */,
+				C300BE0BE5A601BEF18EB60EF3D0CE8B /* Protected.swift */,
+				B9F967B907CA38D534039DE03CF9CF10 /* RedirectHandler.swift */,
+				37A555733F77CFAC3B9BBAA288990ED0 /* Request.swift */,
+				2A1FFC37EFC0E2982AD196F4B4BD6BAB /* RequestInterceptor.swift */,
+				752E74BD460BCFCC7134269EF2915B80 /* RequestTaskMap.swift */,
+				D23EB1CD687812033CB728E4615C6F2D /* Response.swift */,
+				238A35B75B4902B2A835E480FC30B518 /* ResponseSerialization.swift */,
+				6B1608B901F798033712BE9CD2794E89 /* Result+Alamofire.swift */,
+				4AFD09AEBDE960211C52B3C6D33B4E18 /* RetryPolicy.swift */,
+				3FD77E4269E048FA38860C15090995A4 /* ServerTrustEvaluation.swift */,
+				DC35875C9D44BAC755723DC7409FB271 /* Session.swift */,
+				D87EE241C3438672B2E74F6FB7E34A98 /* SessionDelegate.swift */,
+				915F615848A8553D96582C75EA958E59 /* StringEncoding+Alamofire.swift */,
+				B4CCA2243BB5274A8F6E2B36FEEFEF60 /* URLConvertible+URLRequestConvertible.swift */,
+				5706DBEC3620E6AD5578C8DF45085881 /* URLEncodedFormEncoder.swift */,
+				A8A412B5760FC4A319CFEE1F45E3806E /* URLRequest+Alamofire.swift */,
+				D0EBB98DE99AEF5B456603DE4001D45D /* URLSessionConfiguration+Alamofire.swift */,
+				55ADE2B965B0919147D4EB51BDC75EE6 /* Validation.swift */,
+				ABC1B8919E0E85A0330FD16E495E1F39 /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		BCABCA7DB90261FEA4C6911D99D7DD04 /* Pods-NeuroFlow App */ = {
+			isa = PBXGroup;
+			children = (
+				5B77EE90713C5CA0A39749D68DC757AB /* Pods-NeuroFlow App.modulemap */,
+				874EB5FDF8CF8BBC824AE1A5CB2F74CF /* Pods-NeuroFlow App-acknowledgements.markdown */,
+				61D2971D06DA1F89024C9A0501D71D27 /* Pods-NeuroFlow App-acknowledgements.plist */,
+				3F314463C17E9988B12398D81BDD57F5 /* Pods-NeuroFlow App-dummy.m */,
+				D8A566568BB1B1A515D79A395D29634E /* Pods-NeuroFlow App-frameworks.sh */,
+				700354EFA73570A845AFF3E21735AA1F /* Pods-NeuroFlow App-Info.plist */,
+				54770148A8536E349E4D125DDE9C2E17 /* Pods-NeuroFlow App-umbrella.h */,
+				97A1FE185E06CA00FF495F193237919C /* Pods-NeuroFlow App.debug.xcconfig */,
+				B54DF502E55D04E4F0AE8D36948B0CA8 /* Pods-NeuroFlow App.release.xcconfig */,
+			);
+			name = "Pods-NeuroFlow App";
+			path = "Target Support Files/Pods-NeuroFlow App";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				038603BAC2ABF98ABBEF9F3322448F5A /* Pods */,
+				8808242380876EAD763E7D3165C48F4E /* Products */,
+				4D028C1F4639499D13992307FF7879C5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DEB1FBC8F24C4C0D3E65171C876F227C /* Pods-NeuroFlow App-NeuroFlow AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE73AAE23FC5E0F73B26F6B65E9D09C6 /* Pods-NeuroFlow App-NeuroFlow AppUITests.modulemap */,
+				7C6B762B645C8C9FC5D3A5F850B66942 /* Pods-NeuroFlow App-NeuroFlow AppUITests-acknowledgements.markdown */,
+				7D0A919D217EFFB0831762339F940C44 /* Pods-NeuroFlow App-NeuroFlow AppUITests-acknowledgements.plist */,
+				2F5A60743BA73EB5146BBC411BA2678E /* Pods-NeuroFlow App-NeuroFlow AppUITests-dummy.m */,
+				D9D4A2757168B0FBB11025D3A808C34F /* Pods-NeuroFlow App-NeuroFlow AppUITests-frameworks.sh */,
+				921D811DBB2E5DB4D08AF5621323C561 /* Pods-NeuroFlow App-NeuroFlow AppUITests-Info.plist */,
+				91229B10D3D49F7273582A808A484AA4 /* Pods-NeuroFlow App-NeuroFlow AppUITests-umbrella.h */,
+				E31F4B390708B07658D4696EE7ED062E /* Pods-NeuroFlow App-NeuroFlow AppUITests.debug.xcconfig */,
+				7FD215953D92DF5D044C69DD88E0C411 /* Pods-NeuroFlow App-NeuroFlow AppUITests.release.xcconfig */,
+			);
+			name = "Pods-NeuroFlow App-NeuroFlow AppUITests";
+			path = "Target Support Files/Pods-NeuroFlow App-NeuroFlow AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4E0015B7F80989F48AE85D2A610487CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D0330B548C2D23EA11AE894FC99B6E6 /* Pods-NeuroFlow AppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8070B01910C64B9AFD0DB550EDE38D6B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D3DD4A8BB36733BA15868F7FB8C56CE /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F93DDE1F1BB70A4F8AC5D034374CF81 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				161D41F8C13B724BC4A4D0CBAE769671 /* Pods-NeuroFlow App-NeuroFlow AppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A665060F7F660DD88E7B9A7D182A08C1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1E824CBF00F3E5560A94F5921E379CB /* SpotifyKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B77DC5C56C1D4974D17BB03299EF8948 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7797967B0D1AD5EE40B6431035F70BA /* Pods-NeuroFlow App-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		14F19EF90D81F697C514916EA1EFEFD3 /* Pods-NeuroFlow AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5ADE252E526391E8AAB6811BABC7793 /* Build configuration list for PBXNativeTarget "Pods-NeuroFlow AppTests" */;
+			buildPhases = (
+				4E0015B7F80989F48AE85D2A610487CF /* Headers */,
+				97D49ACC8911D84C78FEC77C521B90B0 /* Sources */,
+				430608BD1037CC8A278BA019A755CF40 /* Frameworks */,
+				E49556F3EA086A859BC13F73572DF8A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15E14E146C1621793802FA20EEF96EA9 /* PBXTargetDependency */,
+			);
+			name = "Pods-NeuroFlow AppTests";
+			productName = "Pods-NeuroFlow AppTests";
+			productReference = 50D97A599BB3278D3FBC65D44BF0CE04 /* Pods_NeuroFlow_AppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7397CE3A40661DA94E815DD9EA996C7D /* Pods-NeuroFlow App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7784D6F33E2F8C9A6B30565A7A6F591 /* Build configuration list for PBXNativeTarget "Pods-NeuroFlow App" */;
+			buildPhases = (
+				B77DC5C56C1D4974D17BB03299EF8948 /* Headers */,
+				E7125C8273214016ADE096F8B3A6D873 /* Sources */,
+				E4D6C7623EEC2EDF9884524ADB4AA968 /* Frameworks */,
+				1E28E2DC1CB9816A179BCCFBCAA863B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77927971A277A9F6FA8205D0952C5A86 /* PBXTargetDependency */,
+				4701D726693952C71A58C267EF4C2947 /* PBXTargetDependency */,
+			);
+			name = "Pods-NeuroFlow App";
+			productName = "Pods-NeuroFlow App";
+			productReference = 2951EE80DA20D6163942FE280FB976F7 /* Pods_NeuroFlow_App.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BF5754821174F293E56E2CEE1217D164 /* Pods-NeuroFlow App-NeuroFlow AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C8C1EAD3902F2F8A2359AB105AE459C /* Build configuration list for PBXNativeTarget "Pods-NeuroFlow App-NeuroFlow AppUITests" */;
+			buildPhases = (
+				8F93DDE1F1BB70A4F8AC5D034374CF81 /* Headers */,
+				2ACCDE04AC8DE497D7788A0FDC26FA98 /* Sources */,
+				17AD845DE9D0710D41DB536F766D3DA1 /* Frameworks */,
+				D94E5B1FC7D1F2C63A503F5E42D61ED4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C2BEEE535FC9798D8CF38F4711D150C /* PBXTargetDependency */,
+				A1790DDCAB1B714ABC973D9EA9855E6A /* PBXTargetDependency */,
+			);
+			name = "Pods-NeuroFlow App-NeuroFlow AppUITests";
+			productName = "Pods-NeuroFlow App-NeuroFlow AppUITests";
+			productReference = 9AFAE88F915C7BDFDD290E0F21BF863A /* Pods_NeuroFlow_App_NeuroFlow_AppUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D26288CCBF209EAADF095D6CEFEF0AA4 /* SpotifyKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E6B1BD39CA56AE91A4467F1A5273E91 /* Build configuration list for PBXNativeTarget "SpotifyKit" */;
+			buildPhases = (
+				A665060F7F660DD88E7B9A7D182A08C1 /* Headers */,
+				5ED7C2A8957189D777B9AD34D5A6ECE1 /* Sources */,
+				0A2937FD57FF10F22FA90D59F5D95CB6 /* Frameworks */,
+				2CF4914C32D226EE9D53A8226E8D44A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpotifyKit;
+			productName = SpotifyKit;
+			productReference = 98F557A75641F62235315901421EC6DA /* SpotifyKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78E219AC01CD5AFED663C9AB28280801 /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				8070B01910C64B9AFD0DB550EDE38D6B /* Headers */,
+				2C8326877F6A9617C2FBE9BD15D95B59 /* Sources */,
+				9590D3FE7A79CD7CBEE3F346E8C19D4D /* Frameworks */,
+				9BCA7D105D531AE5DAF34FB86A2E623A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 5D797E9A5C5782CE845840781FA1CC81 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8808242380876EAD763E7D3165C48F4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */,
+				7397CE3A40661DA94E815DD9EA996C7D /* Pods-NeuroFlow App */,
+				BF5754821174F293E56E2CEE1217D164 /* Pods-NeuroFlow App-NeuroFlow AppUITests */,
+				14F19EF90D81F697C514916EA1EFEFD3 /* Pods-NeuroFlow AppTests */,
+				D26288CCBF209EAADF095D6CEFEF0AA4 /* SpotifyKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E28E2DC1CB9816A179BCCFBCAA863B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CF4914C32D226EE9D53A8226E8D44A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BCA7D105D531AE5DAF34FB86A2E623A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D94E5B1FC7D1F2C63A503F5E42D61ED4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E49556F3EA086A859BC13F73572DF8A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2ACCDE04AC8DE497D7788A0FDC26FA98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94064181491778F1AAA7F5091548CE4B /* Pods-NeuroFlow App-NeuroFlow AppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C8326877F6A9617C2FBE9BD15D95B59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1208E81DA8B532D0646D627B50290EB6 /* AFError.swift in Sources */,
+				C6D5A4B4028B2C43380C9FA58BD5C8CA /* Alamofire-dummy.m in Sources */,
+				C1F1DB6A9CBDE584D09BA1613AAD4F9D /* Alamofire.swift in Sources */,
+				72EC2712926E6D28B52360D9AC41668F /* AlamofireExtended.swift in Sources */,
+				DC627AFC5B585686898B014184AFCABD /* AuthenticationInterceptor.swift in Sources */,
+				ABA85887A41495358C83CE3F3030EDEA /* CachedResponseHandler.swift in Sources */,
+				0A1849775CF90D514963187D3A771CF8 /* Combine.swift in Sources */,
+				27E59A11A2743B0595CDE3A08675EAE1 /* DispatchQueue+Alamofire.swift in Sources */,
+				6546D728B69398F93B506845141EBD61 /* EventMonitor.swift in Sources */,
+				91B837CE0DCD8EDB300FCDFFA1279162 /* HTTPHeaders.swift in Sources */,
+				013BAC24F7AC722E59517CB110A9E685 /* HTTPMethod.swift in Sources */,
+				45B8CC1C61E7A0BB28CFA8CE7C12FEBC /* MultipartFormData.swift in Sources */,
+				D03F1F02DE8606E6057D57866611BEBF /* MultipartUpload.swift in Sources */,
+				19D605A3233499828FB6B790869F3E9C /* NetworkReachabilityManager.swift in Sources */,
+				8AA937910F87915DE700CAB6C868689E /* Notifications.swift in Sources */,
+				0A900DF17E3B64F08AF673E9A0DDD697 /* OperationQueue+Alamofire.swift in Sources */,
+				4AEC050FA7D5ED52FDA9DF50EA3560DF /* ParameterEncoder.swift in Sources */,
+				D14066FAE94E304798E43651E5886D13 /* ParameterEncoding.swift in Sources */,
+				218C14EAE5AA31C30314AE0289B732A0 /* Protected.swift in Sources */,
+				666EC5C8356E6D4448A2FE7BEE77AD88 /* RedirectHandler.swift in Sources */,
+				EDC93BD7B9262119AE145E4C7A9D0212 /* Request.swift in Sources */,
+				6E54F64E8DA73F4B0B46C216F9F93F63 /* RequestInterceptor.swift in Sources */,
+				6C08F6A77889651626583100F560153D /* RequestTaskMap.swift in Sources */,
+				C1C5B050B55C15103ABC81769551A283 /* Response.swift in Sources */,
+				911448B2EDA2FF880108F77642797A88 /* ResponseSerialization.swift in Sources */,
+				66B26C6CAE737EC21F4BA1F1851B69C5 /* Result+Alamofire.swift in Sources */,
+				9FED70D1E1FBFB80E974E999EF732258 /* RetryPolicy.swift in Sources */,
+				47FDBBBD2704901588C3A7C56BBC502D /* ServerTrustEvaluation.swift in Sources */,
+				6AE407A4FB6C3D6ADD862CC6E3067A17 /* Session.swift in Sources */,
+				381FF05F8B4F611EE9C2FDBE4457BB89 /* SessionDelegate.swift in Sources */,
+				212EDC48B68107BEA9247F3464CE696E /* StringEncoding+Alamofire.swift in Sources */,
+				9B1D8A7798D8A6F518FC9AF9725431D0 /* URLConvertible+URLRequestConvertible.swift in Sources */,
+				D31FC7FDD450C4CDD633ECBAD27C6221 /* URLEncodedFormEncoder.swift in Sources */,
+				D5EAAFB6FAD77A8F0699345149BA3CBB /* URLRequest+Alamofire.swift in Sources */,
+				F70EF854395CDE981A8336E4FF0310FE /* URLSessionConfiguration+Alamofire.swift in Sources */,
+				F0F3224FF592F9BA2A044A2FC2BD4CCD /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ED7C2A8957189D777B9AD34D5A6ECE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				736EC3299A9771A22DF72ABD691FA90C /* Keychain.swift in Sources */,
+				04D192C4D02FD43975EA0153472197D6 /* SpotifyItems.swift in Sources */,
+				EB1CE86497C42A4FE8F90D9323FD9235 /* SpotifyKit-dummy.m in Sources */,
+				34F3FA46139F83CCDE8AF85EDD200A91 /* SpotifyKit.swift in Sources */,
+				5FFCA7EC6F58DA4F6C29C8892927C899 /* WebCommunications.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97D49ACC8911D84C78FEC77C521B90B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA99801A878F87439BC9E47C5DA3F0F8 /* Pods-NeuroFlow AppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7125C8273214016ADE096F8B3A6D873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6DB6201C0C5D50F8F573336DE6CC362 /* Pods-NeuroFlow App-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15E14E146C1621793802FA20EEF96EA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NeuroFlow App";
+			target = 7397CE3A40661DA94E815DD9EA996C7D /* Pods-NeuroFlow App */;
+			targetProxy = 179696EEA8F365B96F389E8EE312E2D8 /* PBXContainerItemProxy */;
+		};
+		4701D726693952C71A58C267EF4C2947 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SpotifyKit;
+			target = D26288CCBF209EAADF095D6CEFEF0AA4 /* SpotifyKit */;
+			targetProxy = 1388AAA831B821969A135E95E2E2ACDF /* PBXContainerItemProxy */;
+		};
+		4C2BEEE535FC9798D8CF38F4711D150C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = B284578E28F2D024E9A49878867BC760 /* PBXContainerItemProxy */;
+		};
+		77927971A277A9F6FA8205D0952C5A86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
+			targetProxy = C20D22C75D253CA28434BEFA165EF3B8 /* PBXContainerItemProxy */;
+		};
+		A1790DDCAB1B714ABC973D9EA9855E6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SpotifyKit;
+			target = D26288CCBF209EAADF095D6CEFEF0AA4 /* SpotifyKit */;
+			targetProxy = 5E5D78A215D88C91F6547D768AAA4908 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D0BA400C1E0E3BDD45BFF238515491D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8CFD7D3AFBB15D1684545D923A4DE3E /* SpotifyKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SpotifyKit/SpotifyKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SpotifyKit/SpotifyKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SpotifyKit/SpotifyKit.modulemap";
+				PRODUCT_MODULE_NAME = SpotifyKit;
+				PRODUCT_NAME = SpotifyKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1492887489137087360DA27DB7C548FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E31F4B390708B07658D4696EE7ED062E /* Pods-NeuroFlow App-NeuroFlow AppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NeuroFlow App-NeuroFlow AppUITests/Pods-NeuroFlow App-NeuroFlow AppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NeuroFlow App-NeuroFlow AppUITests/Pods-NeuroFlow App-NeuroFlow AppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2444D36F2CB5FF3F9469EF5F6322EA10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BE8CCDAAB8790B967983F66BD2FE6BE /* Alamofire.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2DBD7C13B57C32910493B4C02C8198BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97A1FE185E06CA00FF495F193237919C /* Pods-NeuroFlow App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NeuroFlow App/Pods-NeuroFlow App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NeuroFlow App/Pods-NeuroFlow App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		47388F7F01FBE25E5391679D3D4F48C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FBBD3AFEABBC263A375B064B9E15657 /* Pods-NeuroFlow AppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NeuroFlow AppTests/Pods-NeuroFlow AppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NeuroFlow AppTests/Pods-NeuroFlow AppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8AAEA7C4325FDA38EF395CF03A9984E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 159F3C16DED892089A1489781A47C1C5 /* Pods-NeuroFlow AppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NeuroFlow AppTests/Pods-NeuroFlow AppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NeuroFlow AppTests/Pods-NeuroFlow AppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8D9CCBDFA50922FD885D3DC1DF660D1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FD215953D92DF5D044C69DD88E0C411 /* Pods-NeuroFlow App-NeuroFlow AppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NeuroFlow App-NeuroFlow AppUITests/Pods-NeuroFlow App-NeuroFlow AppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NeuroFlow App-NeuroFlow AppUITests/Pods-NeuroFlow App-NeuroFlow AppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		921A73D8B51927E09D7BCE9177A16DAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B54DF502E55D04E4F0AE8D36948B0CA8 /* Pods-NeuroFlow App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NeuroFlow App/Pods-NeuroFlow App-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NeuroFlow App/Pods-NeuroFlow App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9B66E952E27F29569285AB82461A2F34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5159EDF95D4F304C23C8258DFD94F5DD /* Alamofire.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FF301FB566463AC85E6AF861D3AE90BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29038FE37ED0E69F91AAF0E987A38230 /* SpotifyKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SpotifyKit/SpotifyKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SpotifyKit/SpotifyKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SpotifyKit/SpotifyKit.modulemap";
+				PRODUCT_MODULE_NAME = SpotifyKit;
+				PRODUCT_NAME = SpotifyKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C8C1EAD3902F2F8A2359AB105AE459C /* Build configuration list for PBXNativeTarget "Pods-NeuroFlow App-NeuroFlow AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1492887489137087360DA27DB7C548FD /* Debug */,
+				8D9CCBDFA50922FD885D3DC1DF660D1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E6B1BD39CA56AE91A4467F1A5273E91 /* Build configuration list for PBXNativeTarget "SpotifyKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D0BA400C1E0E3BDD45BFF238515491D /* Debug */,
+				FF301FB566463AC85E6AF861D3AE90BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */,
+				C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78E219AC01CD5AFED663C9AB28280801 /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2444D36F2CB5FF3F9469EF5F6322EA10 /* Debug */,
+				9B66E952E27F29569285AB82461A2F34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5ADE252E526391E8AAB6811BABC7793 /* Build configuration list for PBXNativeTarget "Pods-NeuroFlow AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AAEA7C4325FDA38EF395CF03A9984E3 /* Debug */,
+				47388F7F01FBE25E5391679D3D4F48C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7784D6F33E2F8C9A6B30565A7A6F591 /* Build configuration list for PBXNativeTarget "Pods-NeuroFlow App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DBD7C13B57C32910493B4C02C8198BB /* Debug */,
+				921A73D8B51927E09D7BCE9177A16DAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
